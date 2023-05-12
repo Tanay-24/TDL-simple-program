@@ -1,0 +1,42 @@
+;;This is two lines shows or multiple lines
+
+[#Menu: Gateway of Tally]
+	Add: Key Item: After: @@locRatioAnalysis : DEMO TDL : E : Display: Demo Report
+	
+[Report: Demo Report]
+	Form: Demo
+	Title:"Demo TDL"
+	
+[Form: Demo]
+	Part: Demo p1, Demo p2
+	
+[Part: Demo p1]
+	Line: Line1, Line2
+	
+[Line: Line1]
+	Field: Field1
+	
+[Field: Field1]
+	Set as: " This is 1st field in 1st first line of part 1"
+	
+[Line: Line2]
+	Field: Field2
+	
+[Field: Field2]
+	Set as: "This is 2nd field in 1st line of part 1"
+	
+[Part: Demo p2]
+	Line: Line11, Line22
+	
+[Line: Line11]
+	Field: Field11
+	
+[Field: Field11]
+	Set as:"This is 2nd part and line 1 and filed 1"
+	
+[Line: Line22]
+	Field: Field22
+	
+[Field: Field22]
+	Set as:" This is 2nd part and line 2 and filed 2"
+	
